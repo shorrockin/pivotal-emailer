@@ -1,0 +1,53 @@
+Delivered-To: tix+feature@chimpfund.com
+Received: by 10.216.70.209 with SMTP id p59cs164449wed;
+        Mon, 28 Feb 2011 09:22:03 -0800 (PST)
+Received: by 10.204.62.73 with SMTP id w9mr5232448bkh.11.1298913723648;
+        Mon, 28 Feb 2011 09:22:03 -0800 (PST)
+Return-Path: <chris.shorrock@gmail.com>
+Received: from mail-fx0-f53.google.com (mail-fx0-f53.google.com [209.85.161.53])
+        by mx.google.com with ESMTPS id rd15si11485712bkb.33.2011.02.28.09.22.02
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Mon, 28 Feb 2011 09:22:02 -0800 (PST)
+Received-SPF: pass (google.com: domain of chris.shorrock@gmail.com designates 209.85.161.53 as permitted sender) client-ip=209.85.161.53;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of chris.shorrock@gmail.com designates 209.85.161.53 as permitted sender) smtp.mail=chris.shorrock@gmail.com; dkim=pass (test mode) header.i=@gmail.com
+Received: by fxm20 with SMTP id 20so4097794fxm.12
+        for <tix+feature@chimpfund.com>; Mon, 28 Feb 2011 09:22:02 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=gamma;
+        h=domainkey-signature:mime-version:sender:date:x-google-sender-auth
+         :message-id:subject:from:to:content-type;
+        bh=CJiWhjf2Pl9P0Cee/pEpUKg2EEy5reeZqGyk7C2oi6g=;
+        b=PzL5pKaQDRYeb1FrO+IWxmPu9Cci1ViAysjesNQh2WlBANoK5IdCxaZ5DNfO4mQsNK
+         +8r07n7WDLiuL1IYNgpmAlCxFH4giPiAhksFt7naHBDX8UFLeo+MuI4SQvjOoIL+wdKH
+         mLTcVyN4eCqiqIlMO9hKFdxUzxUL5AlZSXQUs=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=gmail.com; s=gamma;
+        h=mime-version:sender:date:x-google-sender-auth:message-id:subject
+         :from:to:content-type;
+        b=ZGZuescX8IaS8Ca+nvPVOtND7WGYkdpwKhhrn/Pxo77AX+H0rMgk44QfNQJSPoHAer
+         zRoklabUfArl/Ck/Jq+UE3JHcr6xTAgODg9QcHTacfhTr8i5sDrKbH5dwXB8fV47HmiL
+         QWB7WjCIKj0ibfsrUSHAGCSehkQU/cWz4e2zA=
+MIME-Version: 1.0
+Received: by 10.223.83.6 with SMTP id d6mr7098948fal.95.1298913676976; Mon, 28
+ Feb 2011 09:21:16 -0800 (PST)
+Sender: chris.shorrock@gmail.com
+Received: by 10.223.101.144 with HTTP; Mon, 28 Feb 2011 09:21:16 -0800 (PST)
+Date: Mon, 28 Feb 2011 09:21:16 -0800
+X-Google-Sender-Auth: n6y8_zqJnG8aWbkIrizdxPj0wos
+Message-ID: <AANLkTim8X9sQ93uB850e=k8pXRUmqbyR009pLAG3KTqx@mail.gmail.com>
+Subject: hello world
+From: Chris Shorrock <chris@shorrockin.com>
+To: tix+feature@chimpfund.com
+Content-Type: multipart/alternative; boundary=20cf3043451e4f6226049d5ae8df
+
+--20cf3043451e4f6226049d5ae8df
+Content-Type: text/plain; charset=ISO-8859-1
+
+me*o*w meo*w m*eow
+
+--20cf3043451e4f6226049d5ae8df
+Content-Type: text/html; charset=ISO-8859-1
+
+me<b>o</b>w meo<u>w m</u>eow
+
+--20cf3043451e4f6226049d5ae8df--
